@@ -10,6 +10,7 @@ set :views, Proc.new { File.join(root, "app/views") }
 # Routes + Controller
 
 get '/about' do
+  @team_members = ['Carlos', 'João']
   erb :about # Embedded Ruby -> renders about.erb from the views folder
 end
 
