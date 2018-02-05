@@ -13,3 +13,6 @@ This is a starting point for the Activerecord Basics livecode using sqlite and s
 - new view with the form that allows to create a new restaurant
 - run `ruby app.rb`
 - check the app in the browser using url: http://localhost:4567
+
+Optional:
+- create seeds using faker gem
